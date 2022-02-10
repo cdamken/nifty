@@ -25,7 +25,7 @@ ansible-galaxy install -r roles/requirements.yml
 
 # Copy your public key over to the new server and enter it in to the .ssh/authorized_keys file
 
-scp ~.ssh/id_rsa.pub username@server:~.ssh/owncloud_deployment_key.pub
+`scp ~.ssh/id_rsa.pub username@server:~.ssh/owncloud_deployment_key.pub`
 
 cat owncloud_deployment_key.pub >> authorized_keys
 

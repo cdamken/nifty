@@ -2,7 +2,7 @@
 # For example - App Version, or Minimal or Maximal PHP / ownCloud Version
 # requires xmlstartlet installation
 
-apt instal xmlstartlet
+apt install xmlstartlet
 cd /var/www/owncloud/apps
 
 # show app descriptions
